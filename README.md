@@ -18,3 +18,14 @@
 10. Create a new __Script__. Add it to Options.
 11. Create a Submit method. Inside a OnClick() component of SubmitButton add Options and check its Submit method.
 12. You can also create a new __Sprite__ (2d objects -> sprites -> circle), and set it as a source image in toggle's background.
+
+## Switch Toggle
+1. Create a __Canvas__, change its color, size, etc.
+2. Create an empty __GameObject__ (rename to _SwitchToggle_). Add an __Image__ inside (rename to _Background_), change its size and color.
+3. In source image add a _bg1_ sprite.
+4. Inside of Background add a new __Image__ (rename to _Handle_), in source image add a _handle1_ sprite.
+5. Add text field if needed.
+6. In SwitchToggle add a new component __Toggle__.
+7. In Toggle component drop SwitchToggle background image into _Target Graphic_.
+8. Create a new C# script (_SwitchToggle_). Add logic. Add this script to SwitchToggle.
+9. For animation: download DoTween asset from Asset Store, import it. Add library in script. Add logic in script.
