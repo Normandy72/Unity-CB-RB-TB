@@ -29,3 +29,15 @@
 7. In Toggle component drop SwitchToggle background image into _Target Graphic_.
 8. Create a new C# script (_SwitchToggle_). Add logic. Add this script to SwitchToggle.
 9. For animation: download DoTween asset from Asset Store, import it. Add library in script. Add logic in script.
+
+## Registration
+#### Scene with TextBox, CheckBox and Button
+1. Create a __Canvas__, change its color, size, etc.
+2. Create text fields (in this case - for name, surname and age).
+3. Add an __Imput Field__ for each text field (UI -> ImputField), change its size, color, placeholder, etc.
+4. Add a __Toggle__, change its label, size, etc. In _Toggle_ component uncheck _IsOn_.
+5. Add a __Button__, rename it to _SubmitButton_.
+6. Add text fields for messages.
+7. Create an empty __GameObject__ (rename to _CheckErrorController_).
+8. Create a new script and attach it to CheckErrorController, add logic.
+9. Create a text field for erroe message.
